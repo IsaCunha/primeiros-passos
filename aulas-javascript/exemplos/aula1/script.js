@@ -30,8 +30,7 @@ function somarNumeros(numero1, numero2) {
 
 somarNumeros(20, 2);
 */
-
-/*function checarNumero() {
+function checarNumero() {
   let numero = prompt('Digite um número');
 
   if (numero > 20) {
@@ -42,4 +41,3 @@ somarNumeros(20, 2);
 }
 
 checarNumero();
-*/
