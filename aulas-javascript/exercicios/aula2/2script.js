@@ -8,6 +8,9 @@ function saoDiferentes() {
         document.body.append(diferentes);
         diferentes.style.color = '#33CCCC';
         
+        setTimeout(() => {
+            diferentes.remove()
+        }, 1000);
         
         
     } else {
@@ -15,6 +18,10 @@ function saoDiferentes() {
         iguais.innerText = 'Não são diferentes';
         document.body.append(iguais);
         iguais.style.color = '#FF0033'
+
+        setTimeout(() => {
+            iguais.remove()
+        }, 1000);
         
     }
 
