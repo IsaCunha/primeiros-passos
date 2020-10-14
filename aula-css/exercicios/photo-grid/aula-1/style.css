@@ -1,0 +1,130 @@
+body {
+    background-color: bisque;
+}
+
+header {
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 40px auto;
+    max-width: 992px;
+}
+
+@media (min-width: 768px) {
+    header {
+        justify-content: flex-start;
+    }
+}
+
+header .foto-usuario {
+    margin: 10px;
+}
+
+@media (min-width: 768px) {
+    header .foto-usuario {
+        margin: 0 60px 0 30px;
+    }
+}
+
+header .foto-usuario img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: initial;  
+}
+
+header .apresentacao {
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: justify;
+    color:#294A7F;
+    margin: 20px; 
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    .apresentacao {
+    margin: 0 auto 
+    }
+}
+
+.container {
+    background-color: bisque;
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: justify;
+    color:#294A7F;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card {
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(250, 242, 229);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(230, 202, 168);
+}
+
+@media (max-width: 768px) {
+    .card img {
+    width: 250px;
+    height: 250px;
+    }
+}
+
+footer {
+    font-family: 'Verdana', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;    
+    color:#294A7F;
+}
+
+@media (min-width: 768px) {
+    footer {
+        font-size: 10px;
+        margin: 0 60px 0 30px;
+    }
+}
